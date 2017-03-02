@@ -32,11 +32,9 @@ body {
 body {
   color: #fff;
   text-align: center;
-  text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
 }
-body { 
+body {
   background: url(https://scontent.fash1-1.fna.fbcdn.net/v/t31.0-8/14434874_10155331745834358_8487622239342608687_o.jpg?oh=04d4eff1a9eb350fa495084cdcb3f05e&oe=592F43ED) no-repeat center center fixed;
-/*  background: url(https://www.youtube.com/watch?v=Kw7G4roJgrY) no-repeat center center fixed; */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -49,8 +47,6 @@ body {
   width: 100%;
   height: 100%; /* For at least Firefox */
   min-height: 100%;
-  -webkit-box-shadow: inset 0 0 5rem rgba(0,0,0,.5);
-          box-shadow: inset 0 0 5rem rgba(0,0,0,.5);
 }
 .site-wrapper-inner {
   display: table-cell;
@@ -130,7 +126,7 @@ body {
  */
 
 .mastfoot {
-  color: rgba(255,255,255,.5);
+  color: rgba(255,255,255,.9);
 }
 
 

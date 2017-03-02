@@ -2,13 +2,6 @@ body {
   padding-top: 20px;
 }
 
-.footer {
-  padding-top: 40px;
-  padding-bottom: 40px;
-  margin-top: 40px;
-  border-top: 1px solid #eee;
-}
-
 /* Main marketing message and sign up button */
 .jumbotron {
   text-align: center;
@@ -35,13 +28,57 @@ body {
   }
 }
 
-/* Responsive: Portrait tablets and up */
-@media screen and (min-width: 768px) {
-  /* Remove the padding we set earlier */
-  .masthead,
-  .marketing,
-  .footer {
-    padding-right: 0;
-    padding-left: 0;
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+  padding-top: 6rem;
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+}
+.site-wrapper-inner {
+  display: table-cell;
+}
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Padding for spacing */
+.inner {
+  padding: 2rem;
+}
+
+/*
+ * Footer
+ */
+
+.mastfoot {
+  color: rgba(0,0,0,.5);
+  text-align: center;
+}
+
+/*
+ * Affix and center
+ */
+
+@media (min-width: 40em) {
+  /* Pull out the footer */
+  .mastfoot {
+    position: fixed;
+    bottom: 0;
+  }
+
+  /* Handle the widths */
+  .mastfoot,
+  .cover-container {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+}
+
+@media (min-width: 62em) {
+  .mastfoot,
+  .cover-container {
+    width: 42rem;
   }
 }
