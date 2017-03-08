@@ -7,7 +7,7 @@ body {
 }
 
 .jumbotron {
-  padding-top: 6rem;
+  padding-top: 10rem;
   padding-bottom: 6rem;
   margin-bottom: 0;
   background-color: #fff;
@@ -59,4 +59,45 @@ footer p {
 
 .cover {
   object-fit: cover;
+}
+
+/* Padding for spacing */
+.inner {
+  padding: 2rem;
+}
+
+/*
+ * Footer
+ */
+
+.mastfoot {
+  color: rgba(0,0,0,.5);
+  text-align: center;
+}
+
+/*
+ * Affix and center
+ */
+
+@media (min-width: 40em) {
+  /* Pull out the footer */
+  .mastfoot {
+    position: fixed;
+    bottom: 0;
+  }
+
+  /* Handle the widths */
+  .mastfoot,
+  .cover-container {
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+}
+
+@media (min-width: 62em) {
+  .mastfoot,
+  .cover-container {
+    width: 42rem;
+  }
 }

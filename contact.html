@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link href="css/joe_grid.css" rel="stylesheet">
+
+    <title>Joeside</title> 
+
+  </head>
+  <body>
+    <!-- JOE'S STUFF -->
+    <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse fixed-top">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Joseph Min</a>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="player_profile.html">Player Profile </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="careers.html">Careers </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Contact </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- END JOE'S STUFF -->
+    <div class="site-wrapper">
+      <div class="site-wrapper-inner">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-lg-offset-2">
+                      <form id="contact-form" method="post" action="contact.php" role="form">
+                         <div class="messages"></div>
+                         <div class="controls">
+                             <div class="row">
+                                  <div class="col-md-6">
+                                      <div class="form-group">
+                                          <label for="form_name">Name*</label>
+                                          <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your name" required="required" data-error="Firstname is required.">
+                                          <div class="help-block with-errors"></div>
+                                      </div>
+                                  </div>
+                                  <div class="col-md-6">
+                                      <div class="form-group">
+                                          <label for="form_email">Email*</label>
+                                          <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email" required="required" data-error="Valid email required.">
+                                          <div class="help-block with-errors"></div>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="row">
+                                  <div class="col-md-12">
+                                      <div class="form-group">
+                                          <label for="form_message">Message*</label>
+                                          <textarea id="form_message" name="message" class="form-control" placeholder="Message (e.g. 'Give us back our domain you huge dingus')" rows="4" required="required" data-error="Seriously though, tell me I'm a dingus."></textarea>
+                                          <div class="help-block with-errors"></div>
+                                      </div>
+                                  </div>
+                                  <div class="col-md-12">
+                                      <input type="submit" class="btn btn-success btn-send" value="Send message">
+                                  </div>
+                              </div>
+                          </div>
+                     </form>
+                </div>
+            </div>
+        </div>
+        <div class="cover-container">
+          <div class="mastfoot">
+            <div class="inner">
+              <p>Joseph Min LLC</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  </body>
+</html>
