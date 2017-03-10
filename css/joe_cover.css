@@ -27,18 +27,26 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #333;
+  background-color: transparent;
 }
 body {
   color: #fff;
   text-align: center;
 }
-body {
-  background: url(https://scontent.fash1-1.fna.fbcdn.net/v/t31.0-8/14434874_10155331745834358_8487622239342608687_o.jpg?oh=04d4eff1a9eb350fa495084cdcb3f05e&oe=592F43ED) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+
+#background {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(../assets/joe_cereal_still.png) no-repeat center center fixed;
+    background-size: cover;
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
