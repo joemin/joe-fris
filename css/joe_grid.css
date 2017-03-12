@@ -1,6 +1,3 @@
-body {
-}
-
 /* Main marketing message and sign up button */
 .jumbotron {
   text-align: center;
@@ -54,8 +51,9 @@ body {
 
 .carousel {
   height: 700px;
+  width: auto;
   margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -70,22 +68,16 @@ body {
 .img-fluid {
   height: 700px;
   width: 100%;
-  repeat: false;
   object-fit: cover;
-  position: center;
+}
+
+.controls {
+  margin-top: 30px;
 }
 
 .row {
+  margin: auto;
   margin-bottom: 30px;
-}
-
-/*
- * Footer
- */
-
-.mastfoot {
-  color: rgba(0,0,0,.5);
-  text-align: center;
 }
 
 /*
