@@ -13,6 +13,27 @@ body {
   font-size: 21px;
 }
 
+.carousel {
+  height: 500px;
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 500px;
+}
+
+.img-fluid {
+  max-height: 500px;
+  repeat: false;
+  size: cover;
+  position: center;
+}
+
 .container {
   padding-top: 3rem;
 }
