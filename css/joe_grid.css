@@ -1,5 +1,4 @@
 body {
-  padding-top: 20px;
 }
 
 /* Main marketing message and sign up button */
@@ -11,27 +10,6 @@ body {
 .jumbotron .btn {
   padding: 14px 24px;
   font-size: 21px;
-}
-
-.carousel {
-  height: 500px;
-  margin-bottom: 60px;
-}
-/* Since positioning the image, we need to help out the caption */
-.carousel-caption {
-  z-index: 10;
-}
-
-/* Declare heights because of positioning of img element */
-.carousel .item {
-  height: 500px;
-}
-
-.img-fluid {
-  max-height: 500px;
-  repeat: false;
-  size: cover;
-  position: center;
 }
 
 .container {
@@ -60,7 +38,6 @@ body {
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
-  padding-top: 3rem;
   display: table;
   width: 100%;
   height: 100%; /* For at least Firefox */
@@ -73,6 +50,33 @@ body {
 /* Padding for spacing */
 .inner {
   padding: 2rem;
+}
+
+.carousel {
+  height: 700px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 700px;
+}
+
+.img-fluid {
+  height: 700px;
+  width: 100%;
+  repeat: false;
+  object-fit: cover;
+  position: center;
+}
+
+.row {
+  margin-bottom: 30px;
 }
 
 /*
@@ -108,5 +112,9 @@ body {
   .mastfoot,
   .cover-container {
     width: 42rem;
+  }
+  .carousel-caption {
+      margin: auto;
+      background: rgba(0, 0, 0, 0.35);
   }
 }
